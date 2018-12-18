@@ -3,11 +3,11 @@ import Foundation
 
 extension FirebaseData: UserData {
   
-  public saveUser(user: User) {
+  public func saveUser(user: User) {
   
   }
   
-  public getUser(userId: String) {
+  public func getUser(userId: String) {
   
   }
 }

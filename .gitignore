@@ -5,3 +5,7 @@ xcuserdata
 
 ## Pods
 Pods
+*.xcworkspace/
+
+## App settings
+GoogleService-Info.plist

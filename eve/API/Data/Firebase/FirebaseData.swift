@@ -3,9 +3,9 @@ import Foundation
 
 public final class FirebaseData: Data {
   
-  static let sharedInstance: Data = {
+  public static let sharedInstance: Data = {
     FirebaseData()
-  }
+  }()
   
   let database: Firestore
   

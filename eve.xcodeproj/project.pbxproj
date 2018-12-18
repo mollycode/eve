@@ -9,14 +9,18 @@
 /* Begin PBXBuildFile section */
 		67CF20F5A7F2B5D213B5355C /* Pods_eveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97BF82E40B0C3B06638F2DB2 /* Pods_eveTests.framework */; };
 		68735DDCE05D157E4F8EC568 /* Pods_eve.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2249D4B84C696E791CAF5FF4 /* Pods_eve.framework */; };
-		E505B68E21C9A47E0059A168 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = E505B68D21C9A47E0059A168 /* Model */; };
 		E505B69221C9A5C40059A168 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E505B69121C9A5C40059A168 /* GoogleService-Info.plist */; };
+		E505B69A21C9AB870059A168 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505B69521C9AB870059A168 /* Data.swift */; };
+		E505B69B21C9AB870059A168 /* Data+User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505B69621C9AB870059A168 /* Data+User.swift */; };
+		E505B69C21C9AB870059A168 /* FirebaseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505B69821C9AB870059A168 /* FirebaseData.swift */; };
+		E505B69D21C9AB870059A168 /* FirebaseData+User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505B69921C9AB870059A168 /* FirebaseData+User.swift */; };
+		E505B6A621C9ABEC0059A168 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505B6A421C9ABEB0059A168 /* Event.swift */; };
+		E505B6A721C9ABEC0059A168 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E505B6A521C9ABEB0059A168 /* User.swift */; };
 		E59C2DE621C7FA0D003E51AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59C2DE521C7FA0D003E51AD /* AppDelegate.swift */; };
 		E59C2DEA21C7FA0D003E51AD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59C2DE921C7FA0D003E51AD /* SecondViewController.swift */; };
 		E59C2DEF21C7FA12003E51AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59C2DEE21C7FA12003E51AD /* Assets.xcassets */; };
 		E59C2DF221C7FA12003E51AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59C2DF021C7FA12003E51AD /* LaunchScreen.storyboard */; };
 		E59C2DFD21C7FA13003E51AD /* eveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59C2DFC21C7FA13003E51AD /* eveTests.swift */; };
-		E5D5062621C95FD200E15AAA /* API in Resources */ = {isa = PBXBuildFile; fileRef = E5D5062521C95FD200E15AAA /* API */; };
 		E5F1C89B21C96124003B1DB0 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F1C89A21C96124003B1DB0 /* RootViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,8 +41,13 @@
 		7BFBF135F1DF8C0F042175F8 /* Pods-eve.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eve.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eve/Pods-eve.debug.xcconfig"; sourceTree = "<group>"; };
 		97BF82E40B0C3B06638F2DB2 /* Pods_eveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA8F08A399A4B2E44F664D9 /* Pods-eveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eveTests/Pods-eveTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E505B68D21C9A47E0059A168 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
 		E505B69121C9A5C40059A168 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E505B69521C9AB870059A168 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		E505B69621C9AB870059A168 /* Data+User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+User.swift"; sourceTree = "<group>"; };
+		E505B69821C9AB870059A168 /* FirebaseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseData.swift; sourceTree = "<group>"; };
+		E505B69921C9AB870059A168 /* FirebaseData+User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FirebaseData+User.swift"; sourceTree = "<group>"; };
+		E505B6A421C9ABEB0059A168 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		E505B6A521C9ABEB0059A168 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E59C2DE221C7FA0D003E51AD /* eve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eve.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E59C2DE521C7FA0D003E51AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E59C2DE921C7FA0D003E51AD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +57,6 @@
 		E59C2DF821C7FA12003E51AD /* eveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E59C2DFC21C7FA13003E51AD /* eveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eveTests.swift; sourceTree = "<group>"; };
 		E59C2DFE21C7FA13003E51AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5D5062521C95FD200E15AAA /* API */ = {isa = PBXFileReference; lastKnownFileType = folder; path = API; sourceTree = "<group>"; };
 		E5F1C89A21C96124003B1DB0 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +100,42 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E505B69321C9AB870059A168 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E505B69421C9AB870059A168 /* Data */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		E505B69421C9AB870059A168 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E505B69521C9AB870059A168 /* Data.swift */,
+				E505B69621C9AB870059A168 /* Data+User.swift */,
+				E505B69721C9AB870059A168 /* Firebase */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E505B69721C9AB870059A168 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				E505B69821C9AB870059A168 /* FirebaseData.swift */,
+				E505B69921C9AB870059A168 /* FirebaseData+User.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		E505B6A321C9ABEB0059A168 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E505B6A421C9ABEB0059A168 /* Event.swift */,
+				E505B6A521C9ABEB0059A168 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E59C2DD921C7FA0D003E51AD = {
 			isa = PBXGroup;
 			children = (
@@ -115,10 +159,10 @@
 		E59C2DE421C7FA0D003E51AD /* eve */ = {
 			isa = PBXGroup;
 			children = (
+				E505B6A321C9ABEB0059A168 /* Model */,
+				E505B69321C9AB870059A168 /* API */,
 				E505B69121C9A5C40059A168 /* GoogleService-Info.plist */,
-				E505B68D21C9A47E0059A168 /* Model */,
 				E5F1C89A21C96124003B1DB0 /* RootViewController.swift */,
-				E5D5062521C95FD200E15AAA /* API */,
 				E59C2DE521C7FA0D003E51AD /* AppDelegate.swift */,
 				E59C2DE921C7FA0D003E51AD /* SecondViewController.swift */,
 				E59C2DEE21C7FA12003E51AD /* Assets.xcassets */,
@@ -223,9 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E59C2DF221C7FA12003E51AD /* LaunchScreen.storyboard in Resources */,
-				E5D5062621C95FD200E15AAA /* API in Resources */,
 				E505B69221C9A5C40059A168 /* GoogleService-Info.plist in Resources */,
-				E505B68E21C9A47E0059A168 /* Model in Resources */,
 				E59C2DEF21C7FA12003E51AD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,9 +393,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E505B69C21C9AB870059A168 /* FirebaseData.swift in Sources */,
+				E505B69B21C9AB870059A168 /* Data+User.swift in Sources */,
 				E59C2DEA21C7FA0D003E51AD /* SecondViewController.swift in Sources */,
+				E505B6A621C9ABEC0059A168 /* Event.swift in Sources */,
 				E59C2DE621C7FA0D003E51AD /* AppDelegate.swift in Sources */,
 				E5F1C89B21C96124003B1DB0 /* RootViewController.swift in Sources */,
+				E505B69A21C9AB870059A168 /* Data.swift in Sources */,
+				E505B69D21C9AB870059A168 /* FirebaseData+User.swift in Sources */,
+				E505B6A721C9ABEC0059A168 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

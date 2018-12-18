@@ -1,9 +1,9 @@
-//
-//  User.swift
-//  eve
-//
-//  Created by Molly Nacey on 12/17/18.
-//  Copyright © 2018 MollyCode. All rights reserved.
-//
-
 import Foundation
+
+public struct User: Codable {
+  public let id: String
+  
+  init(id: String) {
+    self.id = id
+  }
+}
