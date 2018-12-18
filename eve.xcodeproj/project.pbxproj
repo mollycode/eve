@@ -10,13 +10,13 @@
 		67CF20F5A7F2B5D213B5355C /* Pods_eveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97BF82E40B0C3B06638F2DB2 /* Pods_eveTests.framework */; };
 		68735DDCE05D157E4F8EC568 /* Pods_eve.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2249D4B84C696E791CAF5FF4 /* Pods_eve.framework */; };
 		E59C2DE621C7FA0D003E51AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59C2DE521C7FA0D003E51AD /* AppDelegate.swift */; };
-		E59C2DE821C7FA0D003E51AD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59C2DE721C7FA0D003E51AD /* FirstViewController.swift */; };
 		E59C2DEA21C7FA0D003E51AD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59C2DE921C7FA0D003E51AD /* SecondViewController.swift */; };
 		E59C2DED21C7FA0D003E51AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59C2DEB21C7FA0D003E51AD /* Main.storyboard */; };
 		E59C2DEF21C7FA12003E51AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59C2DEE21C7FA12003E51AD /* Assets.xcassets */; };
 		E59C2DF221C7FA12003E51AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59C2DF021C7FA12003E51AD /* LaunchScreen.storyboard */; };
 		E59C2DFD21C7FA13003E51AD /* eveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59C2DFC21C7FA13003E51AD /* eveTests.swift */; };
 		E5D5062621C95FD200E15AAA /* API in Resources */ = {isa = PBXBuildFile; fileRef = E5D5062521C95FD200E15AAA /* API */; };
+		E5F1C89B21C96124003B1DB0 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F1C89A21C96124003B1DB0 /* RootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		BDA8F08A399A4B2E44F664D9 /* Pods-eveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eveTests/Pods-eveTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E59C2DE221C7FA0D003E51AD /* eve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eve.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E59C2DE521C7FA0D003E51AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E59C2DE721C7FA0D003E51AD /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		E59C2DE921C7FA0D003E51AD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E59C2DEC21C7FA0D003E51AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E59C2DEE21C7FA12003E51AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,6 +47,7 @@
 		E59C2DFC21C7FA13003E51AD /* eveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eveTests.swift; sourceTree = "<group>"; };
 		E59C2DFE21C7FA13003E51AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5D5062521C95FD200E15AAA /* API */ = {isa = PBXFileReference; lastKnownFileType = folder; path = API; sourceTree = "<group>"; };
+		E5F1C89A21C96124003B1DB0 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +113,9 @@
 		E59C2DE421C7FA0D003E51AD /* eve */ = {
 			isa = PBXGroup;
 			children = (
+				E5F1C89A21C96124003B1DB0 /* RootViewController.swift */,
 				E5D5062521C95FD200E15AAA /* API */,
 				E59C2DE521C7FA0D003E51AD /* AppDelegate.swift */,
-				E59C2DE721C7FA0D003E51AD /* FirstViewController.swift */,
 				E59C2DE921C7FA0D003E51AD /* SecondViewController.swift */,
 				E59C2DEB21C7FA0D003E51AD /* Main.storyboard */,
 				E59C2DEE21C7FA12003E51AD /* Assets.xcassets */,
@@ -349,7 +349,7 @@
 			files = (
 				E59C2DEA21C7FA0D003E51AD /* SecondViewController.swift in Sources */,
 				E59C2DE621C7FA0D003E51AD /* AppDelegate.swift in Sources */,
-				E59C2DE821C7FA0D003E51AD /* FirstViewController.swift in Sources */,
+				E5F1C89B21C96124003B1DB0 /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
