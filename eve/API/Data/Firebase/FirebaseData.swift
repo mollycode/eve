@@ -1,9 +1,17 @@
-//
-//  FirebaseData.swift
-//  eve
-//
-//  Created by Molly Nacey on 12/18/18.
-//  Copyright © 2018 MollyCode. All rights reserved.
-//
-
+import Firebase
 import Foundation
+
+public final class FirebaseData: Data {
+  
+  static let sharedInstance: Data = {
+    FirebaseData()
+  }
+  
+  let database: Firestore
+  
+  private init() {
+    FirebaseApp.configure()
+    
+    database = Firestore.firestore()
+  }
+}

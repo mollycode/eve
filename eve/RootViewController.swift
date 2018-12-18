@@ -1,7 +1,7 @@
 import Firebase
 import UIKit
 
-class FirstViewController: UIViewController {
+class RootViewController: UIViewController {
   private var handle: AuthStateDidChangeListenerHandle?
 
   init() {

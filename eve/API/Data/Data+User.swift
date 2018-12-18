@@ -1,9 +1,6 @@
-//
-//  Data+User.swift
-//  eve
-//
-//  Created by Molly Nacey on 12/18/18.
-//  Copyright © 2018 MollyCode. All rights reserved.
-//
-
 import Foundation
+
+public protocol UserData {
+  func saveUser(user: User)
+  func getUser(userId: String)
+}
