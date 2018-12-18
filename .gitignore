@@ -1,7 +1,7 @@
 #git ignore
 
 ## User settings
-*.xcodeproj/xcuserdata/
+**.xcodeproj/xcuserdata/
 
 ## Pods
 Pods/
