@@ -32,7 +32,7 @@ class RootViewController: UIViewController {
   
   @available(*, unavailable)
   required init?(coder aDecoder: NSCoder) {
-    fatalError("init(coder) not implemented")
+    fatalError("init?(coder) not implemented")
   }
 
   // MARK: - Life cycle
@@ -84,12 +84,13 @@ class RootViewController: UIViewController {
   @objc
   private func signInTapped(sender: UIButton) {
     Auth.auth().signInAnonymously { (authResult, error) in
-      guard error != nil, let result = authResult else {
+      guard error == nil, let result = authResult else {
         self.showSigninErrorAlert()
         return
       }
-      let user = User(id: result.user.uid)
+      let user = User(id: result.user.uid, name: "Molly")
       API.data.saveUser(user: user)
+      self.present(SecondViewController(userId: result.user.uid), animated: true, completion: nil)
     }
   }
 
