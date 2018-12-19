@@ -10,7 +10,6 @@ class SecondViewController: UIViewController {
     didSet {
       nameLabel.text = name
       view.setNeedsUpdateConstraints()
-      view.setNeedsLayout()
     }
   }
   
