@@ -1,10 +1,10 @@
 import Firebase
 import Foundation
 
-public final class FirebaseData: Data {
+final class FirebaseData: Data {
   
-  public static let sharedInstance: Data = {
-    FirebaseData()
+  static let sharedInstance: FirebaseData = {
+    return FirebaseData()
   }()
   
   let database: Firestore
